@@ -14,7 +14,8 @@ ISLR packages provide several datasets. The description of datasets are availabl
 
 ```{r}
 rm(list = ls())     # clear the workspace 
-install.packages(ISLR)
+# install.packages("ISLR")
+
 
 library(ISLR)       # load ISLR data package
 library(tidyverse)
@@ -88,8 +89,8 @@ We need *rpart* package for Classification Trees. More on rpart : http://cran.r-
 
 `rpart.plot` is a package for visualizing classification tree models. 
 ```{r}
-install.packages("rpart")
-install.packages("rpart.plot")
+# install.packages("rpart")
+# install.packages("rpart.plot")
 library(rpart)
 library(rpart.plot)
 ```
@@ -181,6 +182,7 @@ Default%>%
 
 ## Random Forest
 ```{r}
+# install.packages("randomForest")
 library(randomForest)
 
 set.seed(1)       
